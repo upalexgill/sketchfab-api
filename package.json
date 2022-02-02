@@ -1,0 +1,21 @@
+{
+  "name": "sketchfab-api",
+  "version": "1.0.0",
+  "description": "These are examples of Sketchfab API.",
+  "main": "index.js",
+  "scripts": {
+    "start": " npm run open && node index.js",
+    "open": "start https://localhost:8443"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alexpetergill/sketchfab-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "dependencies": {}
+}
