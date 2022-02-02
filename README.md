@@ -2,7 +2,7 @@
 
 These are examples of Sketchfab API.
 
-## Libraries and Frameworks
+## Documentation
 
 - https://sketchfab.com/developers
 
