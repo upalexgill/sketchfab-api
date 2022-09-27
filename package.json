@@ -7,7 +7,7 @@
     "start": "npm run open && node index.js",
     "open": "start https://localhost:8443",
     "build:js:min": "babel src -d public/dist --out-file-extension .min.js",
-    "build:css:min": "node-sass --include-path scss src/scss/custom.scss public/dist/css/custom.min.css --output-style compressed",
+    "build:css:min": "node-sass --include-path scss src/scss/styles.scss public/dist/css/styles.min.css --output-style compressed",
     "build": "npm run build:js:min && npm run build:css:min"
   },
   "repository": {

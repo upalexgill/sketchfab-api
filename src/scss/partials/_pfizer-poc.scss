@@ -1,0 +1,22 @@
+/**
+* @file
+* Pfizer PoC.
+*/
+
+.annotation-sync {
+  position: relative;
+}
+
+.annotation-sync > iframe {
+  opacity: 0;
+  transition: opacity 0.3s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.annotation-sync > iframe.is-active {
+  opacity: 1;
+  z-index: 1;
+}
